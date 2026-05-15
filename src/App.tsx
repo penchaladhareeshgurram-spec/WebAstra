@@ -39,9 +39,9 @@ const NavBar = ({ isDark, toggleDark }: { isDark: boolean; toggleDark: () => voi
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <div className="h-10 w-10 relative rounded-lg overflow-hidden flex items-center justify-center bg-indigo-600/10">
-            <img src="/logo.png" alt="Webastra" className="w-full h-full object-cover mix-blend-multiply dark:mix-blend-lighten" />
+            <img src="/logo.png" alt="Web-Nethra" className="w-full h-full object-cover mix-blend-multiply dark:mix-blend-lighten" />
           </div>
-          <span className="font-display font-bold text-xl tracking-tight text-gray-900 dark:text-white">Webastra</span>
+          <span className="font-display font-bold text-xl tracking-tight text-gray-900 dark:text-white">Web-Nethra</span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600 dark:text-gray-300">
           <a href="#services" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Services</a>
@@ -455,9 +455,9 @@ const Footer = () => {
         <div className="md:col-span-2">
           <div className="flex items-center gap-2 mb-6">
             <div className="h-10 w-10 relative rounded-lg overflow-hidden flex items-center justify-center bg-white/10">
-              <img src="/logo.png" alt="Webastra" className="w-full h-full object-cover" />
+              <img src="/logo.png" alt="Web-Nethra" className="w-full h-full object-cover" />
             </div>
-            <span className="font-display font-bold text-xl text-white tracking-tight">Webastra</span>
+            <span className="font-display font-bold text-xl text-white tracking-tight">Web-Nethra</span>
           </div>
           <p className="max-w-sm">
             Crafting premium, high-performance websites for Indian businesses at affordable prices. Let's build your digital presence.
@@ -477,14 +477,14 @@ const Footer = () => {
           <h4 className="text-white font-bold mb-4">Contact</h4>
           <ul className="space-y-2">
             <li>India</li>
-            <li>hello@webastra.in</li>
+            <li>hello@web-nethra.in</li>
             <li>+91 82047 829</li>
           </ul>
         </div>
       </div>
       
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-gray-800 dark:border-gray-900 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-        <p>&copy; {new Date().getFullYear()} Webastra. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Web-Nethra. All rights reserved.</p>
         <p>Built with quality & love.</p>
       </div>
     </footer>
@@ -564,7 +564,7 @@ const SplashScreen = ({ onComplete }: { onComplete: () => void }) => {
         className="flex flex-col items-center gap-8"
       >
         <div className="w-32 h-32 md:w-48 md:h-48 relative flex items-center justify-center text-indigo-600 dark:text-indigo-400">
-          <img src="/logo.png" alt="Webastra Logo" className="w-full h-full object-contain drop-shadow-2xl" />
+          <img src="/logo.png" alt="Web-Nethra Logo" className="w-full h-full object-contain drop-shadow-2xl" />
         </div>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -572,7 +572,7 @@ const SplashScreen = ({ onComplete }: { onComplete: () => void }) => {
           transition={{ delay: 0.4, duration: 0.5 }}
           className="flex flex-col items-center gap-3"
         >
-           <h1 className="font-display font-bold text-3xl md:text-5xl tracking-[0.15em] uppercase text-gray-900 dark:text-white" style={{ letterSpacing: '0.15em' }}>Webastra</h1>
+           <h1 className="font-display font-bold text-3xl md:text-5xl tracking-[0.15em] uppercase text-gray-900 dark:text-white" style={{ letterSpacing: '0.15em' }}>Web-Nethra</h1>
            <div className="h-[1px] w-12 bg-indigo-600 dark:bg-indigo-400 my-1"></div>
            <p className="text-xs md:text-sm tracking-[0.3em] text-indigo-600 dark:text-indigo-400 font-medium uppercase text-center mt-1">We Build Digital Worlds</p>
         </motion.div>
